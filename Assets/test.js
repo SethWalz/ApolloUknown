@@ -1,11 +1,11 @@
 #pragma strict
  var hit:RaycastHit;
 var pickedUpObject:GameObject;
- /*
+ 
  function FixedUpdate(){
 
 var hit:RaycastHit;
-var pickedUpObject:GameObject;
+var pickedUpObject:GameObject = null;
 
  if(Input.GetKey("e")){
 	 if(Physics.Raycast(transform.position,transform.forward,hit,100)){//the order of the parameters might be wrong.
@@ -18,7 +18,8 @@ var pickedUpObject:GameObject;
 	 }
 	 else if(pickedUpObject!=null){ //if player is not holding E but was picking up an object last frame
 		 pickedUpObject.transform.parent=null; //drop the object
+		 pickedUpObject.transform.position=transform.position+transform.forward;
 		 pickedUpObject=null;  //and nullify the object pointer
 	 }
- }*/
+ }
  
