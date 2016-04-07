@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 3a0bc8e2e19d6f44086be44cfdc3ec09
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Ass
+    100004: Body
+    100006: Body.001
+    100008: head
+    100010: Hipsdontlie
+    100012: LBAnkle
+    100014: LBFoot
+    100016: LBFoot_end
+    100018: LBFootIK
+    100020: LBFootIK_end
+    100022: LBKnee
+    100024: LBMandible
+    100026: LBThigh1
+    100028: LBThigh2
+    100030: LFAnkle1
+    100032: LFFoot
+    100034: LFFoot_end
+    100036: LFFootIK
+    100038: LFFootIK_end
+    100040: LFKnee
+    100042: LFMandible
+    100044: LFMandible_end
+    100046: LFThigh1
+    100048: LFThigh2
+    100050: neck
+    100052: RBAnkle
+    100054: RBFoot
+    100056: RBFoot_end
+    100058: RBFootIK
+    100060: RBFootIK_end
+    100062: RBKnee
+    100064: RBMandible
+    100066: RBThigh1
+    100068: RBThigh2
+    100070: RBThigh3
+    100072: RFAnkle
+    100074: RFFoot
+    100076: RFFoot_end
+    100078: RFFootIK
+    100080: RFFootIK_end
+    100082: RFKnee
+    100084: RFMandible
+    100086: RFMandible_end
+    100088: RFThigh1
+    100090: RFThigh2
+    100092: RFThigh3
+    100094: Sphere
+    100096: //RootNode
+    400000: Armature
+    400002: Ass
+    400004: Body
+    400006: Body.001
+    400008: head
+    400010: Hipsdontlie
+    400012: LBAnkle
+    400014: LBFoot
+    400016: LBFoot_end
+    400018: LBFootIK
+    400020: LBFootIK_end
+    400022: LBKnee
+    400024: LBMandible
+    400026: LBThigh1
+    400028: LBThigh2
+    400030: LFAnkle1
+    400032: LFFoot
+    400034: LFFoot_end
+    400036: LFFootIK
+    400038: LFFootIK_end
+    400040: LFKnee
+    400042: LFMandible
+    400044: LFMandible_end
+    400046: LFThigh1
+    400048: LFThigh2
+    400050: neck
+    400052: RBAnkle
+    400054: RBFoot
+    400056: RBFoot_end
+    400058: RBFootIK
+    400060: RBFootIK_end
+    400062: RBKnee
+    400064: RBMandible
+    400066: RBThigh1
+    400068: RBThigh2
+    400070: RBThigh3
+    400072: RFAnkle
+    400074: RFFoot
+    400076: RFFoot_end
+    400078: RFFootIK
+    400080: RFFootIK_end
+    400082: RFKnee
+    400084: RFMandible
+    400086: RFMandible_end
+    400088: RFThigh1
+    400090: RFThigh2
+    400092: RFThigh3
+    400094: Sphere
+    400096: //RootNode
+    2300000: Sphere
+    3300000: Sphere
+    4300000: Sphere
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Idle
+    7400004: Armature|Idle0
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Sphere
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Idle0
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ass
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1/LFFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1/LFFoot/LFFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible/LFMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible/LFMandible/LFMandible_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible/RFMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible/RFMandible/RFMandible_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle/RFFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle/RFFoot/RFFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle/LBFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle/LBFoot/LBFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle/RBFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle/RBFoot/RBFoot_end
+        weight: 1
+      - path: Armature/LBFootIK
+        weight: 1
+      - path: Armature/LBFootIK/LBFootIK_end
+        weight: 1
+      - path: Armature/LFFootIK
+        weight: 1
+      - path: Armature/LFFootIK/LFFootIK_end
+        weight: 1
+      - path: Armature/RBFootIK
+        weight: 1
+      - path: Armature/RBFootIK/RBFootIK_end
+        weight: 1
+      - path: Armature/RFFootIK
+        weight: 1
+      - path: Armature/RFFootIK/RFFootIK_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ass
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1/LFFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/LFThigh1/LFThigh2/LFKnee/LFAnkle1/LFFoot/LFFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible/LFMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/LBMandible/LFMandible/LFMandible_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible/RFMandible
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/neck/head/RBMandible/RFMandible/RFMandible_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle/RFFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/Body.001/RFThigh1/RFThigh2/RFThigh3/RFKnee/RFAnkle/RFFoot/RFFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle/LBFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/LBThigh1/LBThigh2/LBKnee/LBAnkle/LBFoot/LBFoot_end
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle/RBFoot
+        weight: 1
+      - path: Armature/Ass/Hipsdontlie/Body/RBThigh1/RBThigh2/RBThigh3/RBKnee/RBAnkle/RBFoot/RBFoot_end
+        weight: 1
+      - path: Armature/LBFootIK
+        weight: 1
+      - path: Armature/LBFootIK/LBFootIK_end
+        weight: 1
+      - path: Armature/LFFootIK
+        weight: 1
+      - path: Armature/LFFootIK/LFFootIK_end
+        weight: 1
+      - path: Armature/RBFootIK
+        weight: 1
+      - path: Armature/RBFootIK/RBFootIK_end
+        weight: 1
+      - path: Armature/RFFootIK
+        weight: 1
+      - path: Armature/RFFootIK/RFFootIK_end
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
