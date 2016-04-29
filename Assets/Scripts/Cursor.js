@@ -8,6 +8,7 @@
      var regular : boolean = true;
      var load : boolean = false;
      var distance : int = 2;
+     var loadMessage : String = "";
      
      var picked: GameObject = null;
      var speed : int;
@@ -35,6 +36,16 @@
         	if (hit.collider.gameObject.tag == "Load"){
         		regular = false;
         		load = true;
+        		
+        		if(hit.collider.name == "LoadCrash"){
+			 		loadMessage = "Go back to crash landing";
+			 	}
+			 	else if(hit.collider.name == "LoadCave"){
+			 		loadMessage = "Enter Cave";
+			 	}
+			 	else if(hit.collider.name == "LoadBase"){
+			 		loadMessage = "Go to Base";
+			 	}
         	}
         }
         else{
@@ -43,12 +54,18 @@
         }
         
 		if(Input.GetButton("Fire1")){
-        	if(Physics.Raycast(transform.position,transform.forward,hit,100)){//the order of the parameters might be wrong.
-			 	if(hit.collider.name == "LoadCrash" && hit.distance < distance){
+        	if(Physics.Raycast(transform.position,transform.forward,hit,100) && hit.distance < distance){
+			 	if(hit.collider.name == "LoadCrash"){
 			 		Application.LoadLevel("crashLandingFromCave");
+			 		loadMessage = "Go back to crash landing";
 			 	}
 			 	else if(hit.collider.name == "LoadCave"){
 			 		Application.LoadLevel("cave");
+			 		loadMessage = "Enter Cave";
+			 	}
+			 	else if(hit.collider.name == "LoadBase"){
+			 		Application.LoadLevel("Base");
+			 		loadMessage = "Go to Base";
 			 	}
 			 	if(hit.collider.gameObject.tag == "DynamicObject"){
 			 		picked = hit.collider.gameObject;
@@ -78,6 +95,8 @@
      {
      	if(regular)
         	GUI.DrawTexture(new Rect(mouse.x - (w / 2), mouse.y - (h / 2), w, h), cursor);
-     	else if(load)
+     	else if(load){
      		GUI.DrawTexture(new Rect(mouse.x - (w / 2), mouse.y - (h / 2), w, h), loadCursor);
+     		GUI.Label(new Rect(mouse.x - 30, mouse.y + h -10, 100, 100), loadMessage);
+     		}
      }
